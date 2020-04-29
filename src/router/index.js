@@ -2,10 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { Layout,Content }  from "../layout"; // 页面整体布局
 import { topRouterMap } from "./topRouter";
-import { Editable, EditableColumn } from 'vue-element-extends'
 
-Vue.component('ElxEditable', Editable)
-Vue.component('ElxEditableColumn ', EditableColumn)
 
 process.env.NODE_ENV === "development" ? Vue.use(Router) : null;
 
@@ -66,7 +63,7 @@ export const constantRouterMap = [
 
 	//注册路由
 export default new Router({
-	mode:'history', // 默认为'hash'模式
+	//mode:'history', // 默认为'hash'模式
 	base: '/permission/', // 添加跟目录,对应服务器部署子目录
 	routes: constantRouterMap
 })

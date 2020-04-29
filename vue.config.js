@@ -20,20 +20,34 @@ const cdn = {
   // 生产环境
   build: {
       css: [
-        'https://cdn.bootcss.com/element-ui/2.11.1/theme-chalk/index.css',
-        'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css'
+        // 'https://cdn.bootcss.com/element-ui/2.11.1/theme-chalk/index.css',
+        // 'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css',
+    'cdn/css/index.css',
+    'cdn/css/nprogress.min.css'
       ],
       js: [
-        'https://cdn.bootcss.com/vue/2.6.10/vue.min.js',
-        'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
-        'https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js',
-        'https://cdn.bootcss.com/axios/0.19.0/axios.min.js',
-        'https://cdn.bootcss.com/vue-i18n/8.13.0/vue-i18n.min.js',
-        'https://cdn.bootcss.com/element-ui/2.11.1/index.js',
-        'https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js',
-        'https://cdn.bootcss.com/Mock.js/1.0.1-beta3/mock-min.js',
-        'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js',
-        'https://cdn.bootcss.com/js-cookie/2.2.0/js.cookie.min.js'
+        // 'https://cdn.bootcss.com/vue/2.6.10/vue.min.js',
+        // 'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
+        // 'https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js',
+        // 'https://cdn.bootcss.com/axios/0.19.0/axios.min.js',
+        // 'https://cdn.bootcss.com/vue-i18n/8.13.0/vue-i18n.min.js',
+        // 'https://cdn.bootcss.com/element-ui/2.11.1/index.js',
+        // 'https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js',
+        // 'https://cdn.bootcss.com/Mock.js/1.0.1-beta3/mock-min.js',
+        // 'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js',
+        // 'https://cdn.bootcss.com/js-cookie/2.2.0/js.cookie.min.js'
+
+       'cdn/js/font_1258069_e40c6mwl0x8.js',
+       'cdn/js/vue.min.js',
+        'cdn/js/vue-router.min.js',
+       'cdn/js/vuex.min.js',
+        'cdn/js/axios.min.js',
+        'cdn/js/vue-i18n.min.js',
+        'cdn/js/index.js',
+        'cdn/js/echarts.min.js',
+       'cdn/js/mock-min.js',
+       'cdn/js/nprogress.min.js',
+       'cdn/js/js.cookie.min.js'
       ]
   }
 }
